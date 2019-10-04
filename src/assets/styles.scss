@@ -1,0 +1,18 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+h1.title {
+  @apply text-4xl font-medium;
+}
+
+p.instructions {
+  @apply text-xl leading-normal tracking-wide py-8;
+}
+
+.shortcut {
+  @apply bg-gray-200 px-2 py-1 text-teal-600 rounded-lg tracking-wide;
+}

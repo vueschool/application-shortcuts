@@ -8,7 +8,8 @@
       @keydown.ctrl.52="navigateTo('play-simple', $event)"
       @keydown.ctrl.53="navigateTo('play', $event)"
       @keydown.ctrl.54="navigateTo('search', $event)"
-      @keydown.ctrl.55="navigateTo('resources', $event)"
+      @keydown.ctrl.55="navigateTo('customers', $event)"
+      @keydown.ctrl.56="navigateTo('resources', $event)"
     />
 
     <div id="nav">
@@ -18,6 +19,7 @@
       <router-link :to="{name: 'play-simple'}">Play 1</router-link> |
       <router-link :to="{name: 'play'}">Play 2</router-link> |
       <router-link :to="{name: 'search'}">Search</router-link> |
+      <router-link :to="{name: 'customers'}">Customers</router-link> |
       <router-link :to="{name: 'resources'}">Resources</router-link>
     </div>
     <router-view :key="$route.path"/>
@@ -34,6 +36,9 @@ export default {
   methods: {
     navigateTo (routeName, e) {
       e.preventDefault()
+      if (this.$route.name === routeName) {
+        return
+      }
       this.$router.push({ name: routeName })
     }
   }

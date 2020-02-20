@@ -4,7 +4,7 @@
     <h1 class="title max-w-2xl mx-auto">Application Shortcuts with a Renderless Event Component</h1>
 
     <p class="instructions">
-      Use <span class="shortcut">ctrl+[1-6]</span> to navigate to the examples
+      Use <span class="shortcut">ctrl+[1-8]</span> to navigate to the examples
     </p>
 
     <a href="https://vueschool.io" target="_blank">

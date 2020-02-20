@@ -59,6 +59,8 @@ export default {
     search (e) {
       this.$refs.results.innerHTML = 'Searching...'
     }
+  },
+  mounted () {
   }
 }
 </script>

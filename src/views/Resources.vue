@@ -24,7 +24,7 @@
           Our goal is to be the number one source of Vue.js knowledge for all skill levels.
         </p>
         <p>
-          <strong>More than 59.000 users have already joined us.</strong>
+          <strong>More than 69.000 users have already joined us.</strong>
         </p>
 
         <ul class="flex justify-between mt-2">
@@ -69,6 +69,10 @@ export default {
         {
           title: 'Special ref attribute',
           link: 'https://vuejs.org/v2/api/#ref'
+        },
+        {
+          title: 'Vue 2 Composition API',
+          link: 'https://github.com/vuejs/composition-api'
         },
         {
           title: 'Tailwind CSS',

@@ -34,9 +34,19 @@ export default new Router({
       component: () => import('./views/Play2.vue')
     },
     {
+      path: '/play-composition',
+      name: 'play-composition',
+      component: () => import('./views/PlayComposition.vue')
+    },
+    {
       path: '/search',
       name: 'search',
       component: () => import('./views/Search.vue')
+    },
+    {
+      path: '/customers',
+      name: 'customers',
+      component: () => import('./views/Customers.vue')
     },
     {
       path: '/resources',
